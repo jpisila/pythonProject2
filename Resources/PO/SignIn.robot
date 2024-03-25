@@ -15,6 +15,4 @@ Enter
     click button                id=login-login-button
 
 Verify User Logged-In
-    wait until page contains    Kirjautunut käyttäjänä
-#   click button                name=io.ox/mail
-    sleep   10s
+    wait until page contains    ${LOGGED_IN_AS_VALID_USER}

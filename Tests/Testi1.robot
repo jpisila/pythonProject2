@@ -24,5 +24,11 @@ Open email
 
     Log-In Email
 
+Empty email trash
 
+    [Documentation]             This will log in to my email and marks my deleted un-read e-mail items as read
+    [Tags]                      0002    Regression   mark as read trash bin
+
+    Log-In Email
+    Trash as read
 *** Keywords ***
